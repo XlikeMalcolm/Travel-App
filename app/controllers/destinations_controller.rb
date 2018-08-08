@@ -9,7 +9,7 @@ class DestinationsController < ApplicationController
 	def update
 		@destination = Destination.find(params[:id])
 		if @destination.update_attributes(destination_params)
-			redirect_to(:action 'show' => :id => @destination.id)
+			redirect_to show_path(@destination)
 		else
 			render 'edit'
 		end

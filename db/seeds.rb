@@ -12,8 +12,8 @@ Destination.create(title: "7 Mile Beach", description: "The western coastline co
 Destination.create(title: "El Castillo", description: "An elite destination famous for its white sand beaches", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/beach04.jpg", tag_id: t1.id)
 
 t2 = Tag.create(title: "History", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/history01.jpg")
-Destination.create(destination: "Machu Picchu", description: "Machu Picchu was built around 1450, at the height of the Inca Empire.", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/history02.jpg", tag_id: t2.id)
-Destination.create(post: "Dunrobin Castle", description: "Dunrobin Castle is a stately home in Sutherland. Its origins lie in the Middle Ages.", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/history03.jpg", tag_id: t2.id)
+Destination.create(title: "Machu Picchu", description: "Machu Picchu was built around 1450, at the height of the Inca Empire.", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/history02.jpg", tag_id: t2.id)
+Destination.create(title: "Dunrobin Castle", description: "Dunrobin Castle is a stately home in Sutherland. Its origins lie in the Middle Ages.", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/history03.jpg", tag_id: t2.id)
 Destination.create(title: "Palace of Westminster", description: "The meeting place of the two houses of the Parliament of the United Kingdom", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/history04.jpg", tag_id: t2.id)
 
 t3 = Tag.create(title: "Skiing", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/skiing01.jpg")
